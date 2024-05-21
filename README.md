@@ -29,7 +29,7 @@ A tecnologia de banco de dados utilizada foi o SQL Server, e o ORM utilizado foi
 
 1. 📥 Clone o repositório:
     ```sh
-    git clone <URL-do-repositorio>
+    git clone https://github.com/edvaldo-gutierres/artefatos_pentaho
     ```
 2. 📦 Instale as dependências:
     ```sh
