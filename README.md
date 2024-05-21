@@ -2,6 +2,8 @@
 
 O objetivo do projeto é ler o arquivo XML exportado do pentaho e inserir os dados em uma tabela no banco de dados.
 
+Obs.: A versão do Python utilizada no projeto é a '3.12.2'.
+
 # Exportação Arquivo XML
 Exportar o repositório em formato de arquivo .xml:
 ---
