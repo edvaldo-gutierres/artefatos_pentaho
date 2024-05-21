@@ -1,9 +1,12 @@
+# Importa bibliotecas Python
 import os
 import pandas as pd
+
+# Importa módulos
 from controllers.convert_xml_to_xls import xml_to_xls
 from controllers.insert_xls_database import insert_xls_data
 
-
+# Define a função principal main
 def main() -> None:
 
     # Caminho para dos arquivos
@@ -19,6 +22,6 @@ def main() -> None:
     insert_xls_data(filepath=pasta_xls, table_name=table_name)
 
 
-# Chamar a função principal para criar o arquivo Excel
+# Verifica se o script está sendo executado diretamente (e não importado como um módulo em outro script)
 if __name__ == "__main__":
     main()
