@@ -3,7 +3,9 @@
 O objetivo do projeto é ler o arquivo XML exportado do pentaho e inserir os dados em uma tabela no banco de dados.
 
 # Exportação Arquivo XML
-
+Exportar o repositório em formato de arquivo .xml:
+---
+![alt text](assets/image/image.png)
 
 # Estrutura de Pasta
 
@@ -19,8 +21,20 @@ A estrutura de pastas foi organizada seguindo princípios de orientação a obje
 A tecnologia de banco de dados utilizada foi o SQL Server, e o ORM utilizado foi o sqlalchemy.
 
 
-# Ambiente
-Para instalar as dependências do projeto, execute o comando
-```bash
-pip install -r requirements.txt
-```
+# Instalação
+
+1. Clone o repositório:
+    ```sh
+    git clone <URL-do-repositorio>
+    ```
+2. Instale as dependências:
+    ```sh
+    pip install -r requirements.txt
+    ```
+3. Configure as variáveis de ambiente criando um arquivo `.env` na raiz do projeto:
+    ```
+    server=<endereco-do-servidor>
+    database=<nome-do-banco-de-dados>
+    username=<seu-usuario>
+    password=<sua-senha>
+    ```
