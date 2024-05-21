@@ -33,8 +33,8 @@ A tecnologia de banco de dados utilizada foi o SQL Server, e o ORM utilizado foi
     ```
 3. Configure as variáveis de ambiente criando um arquivo `.env` na raiz do projeto:
     ```
-    server=<endereco-do-servidor>
-    database=<nome-do-banco-de-dados>
-    username=<seu-usuario>
-    password=<sua-senha>
+    SERVER=<endereco-do-servidor>
+    DATABASE=<nome-do-banco-de-dados>
+    USER=<seu-usuario>
+    PASSWORD=<sua-senha>
     ```
