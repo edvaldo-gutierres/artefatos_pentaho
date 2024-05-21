@@ -38,3 +38,7 @@ A tecnologia de banco de dados utilizada foi o SQL Server, e o ORM utilizado foi
     USER=<seu-usuario>
     PASSWORD=<sua-senha>
     ```
+4. Execute o projeto:
+    ```sh
+    python app.py
+    ```
